@@ -1,18 +1,18 @@
 class Showem < Formula
   desc "Screen studio for your agent"
   homepage "https://github.com/artsiomshaitar/showem"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/artsiomshaitar/showem/releases/download/v0.1.2/showem-darwin-arm64.tar.gz"
-    sha256 "dd1d94361f8baa238ebb6aa0f5b3554eb97611366848cac125efed563996a701"
+    url "https://github.com/artsiomshaitar/showem/releases/download/v0.1.3/showem-darwin-arm64.tar.gz"
+    sha256 "41ed15fffd3bf311932259a6e6f7bff4316b44654a8abe25fd99e8602fed4afa"
   end
   on_intel do
-    url "https://github.com/artsiomshaitar/showem/releases/download/v0.1.2/showem-darwin-x64.tar.gz"
-    sha256 "473640db2bdae732d5696a081bd45382df30e4273c70a966a4d88f4ca4dcd711"
+    url "https://github.com/artsiomshaitar/showem/releases/download/v0.1.3/showem-darwin-x64.tar.gz"
+    sha256 "eabd05deb8ffc0343f35b50022cdea76f0fb898f206da6d82e0ea32ba9174b8f"
   end
 
   def install
